@@ -21,27 +21,13 @@
             "url": "/deps/tools/interface_config.schema.json"
         }
     ],
-    "files.exclude": {
-        "__pycache__": true
-    },
-    "files.associations": {
-        "**/assets/**/*.json": "jsonc"
-    },
-    "[json][jsonc]": {
+    "[json]": {
         "editor.formatOnSave": true,
         "editor.insertSpaces": true,
         "editor.tabSize": 4,
         "editor.indentSize": "tabSize"
     },
     "[python]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "[markdown]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
-    "markdownlint.config": {
-        "MD028": false
+        "editor.defaultFormatter": "ms-python.autopep8"
     }
 }
